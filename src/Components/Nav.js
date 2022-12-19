@@ -10,7 +10,7 @@ function Nav() {
           alt="img cannot be displayed"
           className="logo"
         ></img>
-        <Link to="/" className="nav-style text">
+        <Link to="/personal-website" className="nav-style text">
           <li>Home</li>
         </Link>
         <Link to="/about" className="nav-style text">
