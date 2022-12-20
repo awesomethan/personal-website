@@ -4,8 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-//https://github.com/stephane-monnot/react-vertical-timeline?ref=morioh.com&utm_source=morioh.com
-//subtitle: <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
 
 function Timeline() {
   return (
