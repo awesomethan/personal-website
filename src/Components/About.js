@@ -14,7 +14,7 @@ function About() {
   function badminton() {
     setTitle("Badminton");
     setText(
-      "I started playing provincial badminton during high school. I won several awards, including 4 gold, 5 silver, and 3 bronze medals. After playing competitive badminton for less than a year, I attained a rank of 21st in Ontario when I was finishing my grade 9 year. In addition, at the end of grade 12, I achieved a peak rank of 16th in Ontario. During the summer after I graduated from high school, I also worked as a badminton coach for a summer camp. Although I am not playing the sport competitively anymore, I still really enjoy playing it with friends recreationally."
+      "I started playing provincial badminton during high school. After playing competitively for less than a year, I attained a rank of 21st in Ontario when I was finishing my grade 9 year. In addition, at the end of grade 12, I achieved a peak rank of 14th in Ontario. During the summer after I graduated from high school, I also worked as a badminton coach for a summer camp. Although I am not playing the sport competitively anymore, I still really enjoy playing it with friends recreationally."
     );
   }
 
