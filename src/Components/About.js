@@ -8,14 +8,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function About() {
-  const [title, setTitle] = useState();
-  const [text, setText] = useState();
+  const badmintonText =
+    "I started playing provincial badminton during high school. After playing competitively for less than a year, I attained a rank of 21st in Ontario when I was finishing my grade 9 year. In addition, at the end of grade 12, I achieved a peak rank of 14th in Ontario. During the summer after I graduated from high school, I also worked as a badminton coach for a summer camp. Although I am not playing the sport competitively anymore, I still really enjoy playing it with friends recreationally.";
+  const [title, setTitle] = useState("Badminton");
+  const [text, setText] = useState(badmintonText);
 
   function badminton() {
     setTitle("Badminton");
-    setText(
-      "I started playing provincial badminton during high school. After playing competitively for less than a year, I attained a rank of 21st in Ontario when I was finishing my grade 9 year. In addition, at the end of grade 12, I achieved a peak rank of 14th in Ontario. During the summer after I graduated from high school, I also worked as a badminton coach for a summer camp. Although I am not playing the sport competitively anymore, I still really enjoy playing it with friends recreationally."
-    );
+    setText(badmintonText);
   }
 
   function math() {
