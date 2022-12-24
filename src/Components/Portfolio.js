@@ -7,11 +7,14 @@ function Portfolio() {
       <Project
         title={"Demon Slayer Quiz"}
         description={
-          "A Demon Slayer Quiz made using HTML, CSS, and Javascript. Feel free to try it and test your Demon Slayer knowledge!"
+          "A Demon Slayer Quiz made using HTML, CSS, and Javascript. Feel free to try it and test your Demon Slayer knowledge! I guarantee that there will be at least one question that you do not know ;)"
         }
         image={"images/demon-slayer.png"}
         codeLink={"https://github.com/awesomethan/demon-slayer-quiz"}
-        demoLink={"https://drive.google.com/file/d/155LjTpC5BOFewyCAXOcmr3ARh_K8XhHH/view?usp=share_link"}
+        demoLink={
+          "https://drive.google.com/file/d/155LjTpC5BOFewyCAXOcmr3ARh_K8XhHH/view?usp=share_link"
+        }
+        projectLink={"https://demon-slayer-quiz-awesomethan.vercel.app/"}
       ></Project>
       <Project
         title={"Cookie Clicker"}
@@ -20,7 +23,10 @@ function Portfolio() {
         }
         image={"images/cookie-clicker.png"}
         codeLink={"https://github.com/awesomethan/cookie-clicker"}
-        demoLink={"https://drive.google.com/file/d/1vhF53viOMvJBzpoKHuvkIreBl5QX5vfO/view?usp=share_link"}
+        demoLink={
+          "https://drive.google.com/file/d/1vhF53viOMvJBzpoKHuvkIreBl5QX5vfO/view?usp=share_link"
+        }
+        projectLink={"https://cookie-clicker-awesomethan.vercel.app/"}
       ></Project>
     </div>
   );
