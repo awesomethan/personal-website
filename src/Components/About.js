@@ -70,7 +70,7 @@ function About() {
       <h2 className="heading">
         Click on the buttons below for more info about me!
       </h2>
-      <div className="button-container">
+      <div className="about-button-container">
         <button
           className="badminton-img about-button"
           onClick={badminton}
