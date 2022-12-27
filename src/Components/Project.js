@@ -14,13 +14,13 @@ function Project({
         <h1 className="heading">{title}</h1>
         <div className="text portfolio-text">{description}</div>
         <div className="portfolio-button-container">
-          <a href={codeLink}>
+          <a href={codeLink} target="_blank">
             <button className="portfolio-button text">VIEW CODE</button>
           </a>
-          <a href={demoLink}>
+          <a href={demoLink} target="_blank">
             <button className="portfolio-button text">VIEW DEMO</button>
           </a>
-          <a href={projectLink}>
+          <a href={projectLink} target="_blank">
             <button className="portfolio-button text">VIEW PROJECT</button>
           </a>
         </div>
