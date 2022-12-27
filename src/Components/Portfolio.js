@@ -5,6 +5,18 @@ function Portfolio() {
   return (
     <div>
       <Project
+        title={"Pokédex"}
+        description={
+          "A Pokédex made using React JS, Axios, Bootstrap, React-Bootstrap, and CSS. I also used the library Axios to get data from PokéAPI. Try it out, and learn more about Pokémon!"
+        }
+        image={"images/pokedex.png"}
+        codeLink={"https://github.com/awesomethan/pokedex"}
+        demoLink={
+          "https://drive.google.com/file/d/15Le33xZkgzou13vYdvK3Bx1Du04SJpqy/view?usp=share_link"
+        }
+        projectLink={"https://pokedex-awesomethan.vercel.app/"}
+      ></Project>
+      <Project
         title={"Demon Slayer Quiz"}
         description={
           "A Demon Slayer Quiz made using HTML, CSS, and Javascript. Feel free to try it and test your Demon Slayer knowledge! I guarantee that there will be at least one question that you do not know ;)"
