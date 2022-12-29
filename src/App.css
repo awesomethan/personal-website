@@ -11,6 +11,8 @@
   --col2: #00b4d8;
   --col3: #0077b6;
   --col4: #03045e;
+  --nav-time: 0.5s;
+  --animation-time: 0.3s;
 }
 
 nav {
@@ -22,6 +24,8 @@ nav {
   background: var(--col4);
   color: white;
   border-bottom: solid black;
+  animation: nav-load var(--nav-time) ease-in;
+  animation-fill-mode: forwards;
 }
 
 .nav-links {
@@ -74,7 +78,11 @@ body {
   font-size: 30px;
   font-weight: bold;
   color: var(--col0);
-  margin: 4vh 2vw;
+  margin: 4vh 4vw;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation-fill-mode: forwards;
 }
 
 .title {
@@ -84,8 +92,12 @@ body {
 .text {
   color: var(--col1);
   font-size: 20px;
-  margin: 3vh 2vw;
+  margin: 3vh 4vw;
   line-height: 1.5;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation-fill-mode: forwards;
 }
 
 .home {
@@ -121,6 +133,10 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation-fill-mode: forwards;
 }
 
 .image-grid-row-2 {
@@ -141,6 +157,10 @@ body {
   font-size: 5vw;
   color: black;
   transition: 0.5s;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation-fill-mode: forwards;
 }
 
 .icon:hover {
@@ -157,6 +177,10 @@ body {
   height: 22vh;
   background-size: cover;
   border-radius: 10%;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation-fill-mode: forwards;
 }
 
 .about-button:hover {
@@ -209,6 +233,10 @@ body {
   padding: 3vh 3vw;
   border: solid white;
   border-radius: 10px;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation-fill-mode: forwards;
 }
 
 .description-container {
@@ -249,4 +277,31 @@ body {
 
 .portfolio-text {
   text-align: center;
+}
+
+.timeline {
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation-fill-mode: forwards;
+}
+
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes load {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
