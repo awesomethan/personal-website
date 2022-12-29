@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 function Timeline() {
   return (
-    <VerticalTimeline>
+    <VerticalTimeline className="timeline">
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "#0077b6", color: "#fff" }}
@@ -220,6 +220,22 @@ function Timeline() {
           I started tutoring high school students AP chemistry, grade 11
           chemistry, precalculus math, competition math, and competitive
           programming.
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "#0077b6", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        date="October 2018-May 2022"
+        iconStyle={{ background: "#0077b6", color: "#fff" }}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Miscellaneous Badminton Awards
+        </h3>
+        <p>
+          In total, I won 4 gold, 5 silver, and 3 bronze provincial medals. I
+          also played a few other local tournaments and acquired several other
+          awards too.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
