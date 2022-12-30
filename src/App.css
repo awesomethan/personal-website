@@ -96,8 +96,13 @@ body {
   line-height: 1.5;
   transform: translateY(-20px);
   opacity: 0;
-  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation: load var(--animation-time) ease-in
+    calc(var(--nav-time) + var(--animation-time));
   animation-fill-mode: forwards;
+}
+
+.nav-text {
+  animation-delay: var(--nav-time);
 }
 
 .home {
@@ -135,7 +140,8 @@ body {
   object-fit: cover;
   transform: translateY(-20px);
   opacity: 0;
-  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation: load var(--animation-time) ease-in
+    calc(var(--nav-time) + 2 * var(--animation-time));
   animation-fill-mode: forwards;
 }
 
@@ -159,7 +165,8 @@ body {
   transition: 0.5s;
   transform: translateY(-20px);
   opacity: 0;
-  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation: load var(--animation-time) ease-in
+    calc(var(--nav-time) + 2 * var(--animation-time));
   animation-fill-mode: forwards;
 }
 
@@ -179,7 +186,8 @@ body {
   border-radius: 10%;
   transform: translateY(-20px);
   opacity: 0;
-  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation: load var(--animation-time) ease-in
+    calc(var(--nav-time) + var(--animation-time));
   animation-fill-mode: forwards;
 }
 
@@ -273,6 +281,11 @@ body {
   height: 50vh;
   width: 45vw;
   border-radius: 10px;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in
+    calc(var(--nav-time) + var(--animation-time));
+  animation-fill-mode: forwards;
 }
 
 .portfolio-text {
