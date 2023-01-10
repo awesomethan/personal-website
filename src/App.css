@@ -179,11 +179,7 @@ body {
   justify-content: space-around;
 }
 
-.about-button {
-  width: 16vw;
-  height: 22vh;
-  background-size: cover;
-  border-radius: 10%;
+.about-button-div {
   transform: translateY(-20px);
   opacity: 0;
   animation: load var(--animation-time) ease-in
@@ -191,13 +187,20 @@ body {
   animation-fill-mode: forwards;
 }
 
+.about-button {
+  width: 16vw;
+  height: 22vh;
+  background-size: cover;
+  border-radius: 10%;
+}
+
 .about-button:hover {
   cursor: pointer;
-  transform: translateY(5px);
+  transform: scale(1.05);
 }
 
 .about-button:active {
-  transform: translateY(-5px);
+  transform: scale(0.95);
 }
 
 .badminton-img {
