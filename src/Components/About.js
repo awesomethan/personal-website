@@ -71,13 +71,24 @@ function About() {
         Click on the buttons below for more info about me!
       </h2>
       <div className="about-button-container">
-        <button
-          className="badminton-img about-button"
-          onClick={badminton}
-        ></button>
-        <button className="math-img about-button" onClick={math}></button>
-        <button className="compsci-img about-button" onClick={compsci}></button>
-        <button className="anime-img about-button" onClick={anime}></button>
+        <div className="about-button-div">
+          <button
+            className="badminton-img about-button"
+            onClick={badminton}
+          ></button>
+        </div>
+        <div className="about-button-div">
+          <button className="math-img about-button" onClick={math}></button>
+        </div>
+        <div className="about-button-div">
+          <button
+            className="compsci-img about-button"
+            onClick={compsci}
+          ></button>
+        </div>
+        <div className="about-button-div">
+          <button className="anime-img about-button" onClick={anime}></button>
+        </div>
       </div>
       <h2 className="heading">{title}</h2>
       <div className="text">{text}</div>
