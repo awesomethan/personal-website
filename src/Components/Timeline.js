@@ -4,16 +4,29 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import BadmintonLogo from "./Icons/badminton.png";
+import WorkLogo from "./Icons/work.png";
+import SchoolLogo from "./Icons/school.png";
 
 function Timeline() {
   return (
     <VerticalTimeline className="timeline">
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{
+          background: "#03045e",
+          color: "#fff",
+        }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="March 25, 2018"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon badminton-icon"
+            src={BadmintonLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           First Badminton Tournament
@@ -25,10 +38,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="October 14, 2018"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon badminton-icon"
+            src={BadmintonLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           First Provincial Badminton Medal
@@ -41,10 +61,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="November 7, 2018"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={WorkLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           First Day of Work at Spirit of Math
@@ -58,10 +85,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="March 2-3, 2019"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon badminton-icon"
+            src={BadmintonLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           First Provincial Gold Medal
@@ -73,10 +107,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="November 20, 2019"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={SchoolLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           First Honour Roll Placement
@@ -90,10 +131,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="February 12, 2020"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={SchoolLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           My First CCC Contest
@@ -106,10 +154,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="September 9, 2020"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={SchoolLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           Started the IB Programme
@@ -122,10 +177,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="February 17, 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={SchoolLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           My Second CCC Contest
@@ -138,10 +200,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="April 7, 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={SchoolLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           My First Euclid Contest
@@ -154,10 +223,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="May-June, 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={SchoolLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">AP Exams</h3>
         <p>
@@ -169,10 +245,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="September 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={SchoolLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           Joined the Math and CS Clubs at MMHS
@@ -189,10 +272,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="October 2018-November 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={SchoolLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           Miscellaneous Math Contest Awards
@@ -208,10 +298,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="April 2022"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={WorkLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           Started Private Tutoring
@@ -224,10 +321,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="October 2018-May 2022"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon badminton-icon"
+            src={BadmintonLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           Miscellaneous Badminton Awards
@@ -240,10 +344,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="June 2022"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={SchoolLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           Finished the IB Programme
@@ -255,10 +366,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="July-August 2022"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={
+          <img
+            className="timeline-icon school-work-icon"
+            src={WorkLogo}
+            alt=""
+          />
+        }
+        iconStyle={{ background: "#03045e", color: "#fff" }}
       >
         <h3 className="vertical-timeline-element-title">
           Started Coaching Badminton
