@@ -55,16 +55,16 @@ function About() {
       </p>
       <div className="contact">
         <a href="https://www.linkedin.com/in/ethan-wang-3a5506217/">
-          <FontAwesomeIcon icon={faLinkedin} className="icon" />
+          <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
         </a>
         <a href="https://github.com/awesomethan">
-          <FontAwesomeIcon icon={faGithub} className="icon" />
+          <FontAwesomeIcon icon={faGithub} className="icon github" />
         </a>
         <a href="https://www.instagram.com/baldndumbethan/">
-          <FontAwesomeIcon icon={faInstagram} className="icon" />
+          <FontAwesomeIcon icon={faInstagram} className="icon instagram" />
         </a>
         <a href="https://open.spotify.com/user/awesomethan1026?si=2a3b5aae60584ae0">
-          <FontAwesomeIcon icon={faSpotify} className="icon" />
+          <FontAwesomeIcon icon={faSpotify} className="icon spotify" />
         </a>
       </div>
       <h2 className="heading">
