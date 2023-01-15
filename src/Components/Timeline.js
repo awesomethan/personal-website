@@ -19,14 +19,14 @@ function Timeline() {
         }}
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="March 25, 2018"
-        icon={
-          <img
-            className="timeline-icon badminton-icon"
-            src={BadmintonLogo}
-            alt=""
-          />
-        }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        icon={<img className="timeline-icon" src={BadmintonLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           First Badminton Tournament
@@ -48,7 +48,13 @@ function Timeline() {
             alt=""
           />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           First Provincial Badminton Medal
@@ -64,14 +70,14 @@ function Timeline() {
         contentStyle={{ background: "#03045e", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="November 7, 2018"
-        icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={WorkLogo}
-            alt=""
-          />
-        }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        icon={<img className="timeline-icon work-icon" src={WorkLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           First Day of Work at Spirit of Math
@@ -95,7 +101,13 @@ function Timeline() {
             alt=""
           />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           First Provincial Gold Medal
@@ -111,13 +123,15 @@ function Timeline() {
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="November 20, 2019"
         icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={SchoolLogo}
-            alt=""
-          />
+          <img className="timeline-icon school-icon" src={SchoolLogo} alt="" />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           First Honour Roll Placement
@@ -135,13 +149,15 @@ function Timeline() {
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="February 12, 2020"
         icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={SchoolLogo}
-            alt=""
-          />
+          <img className="timeline-icon school-icon" src={SchoolLogo} alt="" />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           My First CCC Contest
@@ -158,13 +174,15 @@ function Timeline() {
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="September 9, 2020"
         icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={SchoolLogo}
-            alt=""
-          />
+          <img className="timeline-icon school-icon" src={SchoolLogo} alt="" />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Started the IB Programme
@@ -181,13 +199,15 @@ function Timeline() {
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="February 17, 2021"
         icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={SchoolLogo}
-            alt=""
-          />
+          <img className="timeline-icon school-icon" src={SchoolLogo} alt="" />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           My Second CCC Contest
@@ -204,13 +224,15 @@ function Timeline() {
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="April 7, 2021"
         icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={SchoolLogo}
-            alt=""
-          />
+          <img className="timeline-icon school-icon" src={SchoolLogo} alt="" />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           My First Euclid Contest
@@ -227,13 +249,15 @@ function Timeline() {
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="May-June, 2021"
         icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={SchoolLogo}
-            alt=""
-          />
+          <img className="timeline-icon school-icon" src={SchoolLogo} alt="" />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">AP Exams</h3>
         <p>
@@ -249,13 +273,15 @@ function Timeline() {
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="September 2021"
         icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={SchoolLogo}
-            alt=""
-          />
+          <img className="timeline-icon school-icon" src={SchoolLogo} alt="" />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Joined the Math and CS Clubs at MMHS
@@ -276,13 +302,15 @@ function Timeline() {
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="October 2018-November 2021"
         icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={SchoolLogo}
-            alt=""
-          />
+          <img className="timeline-icon school-icon" src={SchoolLogo} alt="" />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Miscellaneous Math Contest Awards
@@ -301,14 +329,14 @@ function Timeline() {
         contentStyle={{ background: "#03045e", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="April 2022"
-        icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={WorkLogo}
-            alt=""
-          />
-        }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        icon={<img className="timeline-icon work-icon" src={WorkLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Started Private Tutoring
@@ -331,7 +359,13 @@ function Timeline() {
             alt=""
           />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Miscellaneous Badminton Awards
@@ -348,13 +382,15 @@ function Timeline() {
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="June 2022"
         icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={SchoolLogo}
-            alt=""
-          />
+          <img className="timeline-icon school-icon" src={SchoolLogo} alt="" />
         }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Finished the IB Programme
@@ -369,14 +405,14 @@ function Timeline() {
         contentStyle={{ background: "#03045e", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="July-August 2022"
-        icon={
-          <img
-            className="timeline-icon school-work-icon"
-            src={WorkLogo}
-            alt=""
-          />
-        }
-        iconStyle={{ background: "#03045e", color: "#fff" }}
+        icon={<img className="timeline-icon work-icon" src={WorkLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Started Coaching Badminton
