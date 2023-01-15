@@ -10,7 +10,12 @@
   --col1: #90e0ef;
   --col2: #00b4d8;
   --col3: #0077b6;
-  --col4: #03045e;
+  --col4: #1c1e7b;
+  --col5: #03045e;
+  --col6: #151019;
+  --col7: #0a66c2;
+  --col8: #f10fbb;
+  --col9: #1ccc5b;
   --nav-time: 0.5s;
   --animation-time: 0.3s;
 }
@@ -21,7 +26,7 @@ nav {
   align-items: center;
   height: 12vh;
   width: 100vw;
-  background: var(--col4);
+  background: linear-gradient(black, var(--col6));
   color: white;
   border-bottom: solid black;
   animation: nav-load var(--nav-time) ease-in;
@@ -70,7 +75,7 @@ body {
   width: 100vw;
   margin: 0;
   min-height: 88vh;
-  background: linear-gradient(135deg, var(--col4), var(--col3));
+  background-image: url(../public/images/background.png);
   overflow-x: hidden;
 }
 
@@ -168,10 +173,23 @@ body {
   animation: load var(--animation-time) ease-in
     calc(var(--nav-time) + 2 * var(--animation-time));
   animation-fill-mode: forwards;
+  color: var(--col0);
 }
 
-.icon:hover {
-  color: var(--col0);
+.linkedin:hover {
+  color: var(--col7);
+}
+
+.github:hover {
+  color: black;
+}
+
+.instagram:hover {
+  color: var(--col8);
+}
+
+.spotify:hover {
+  color: var(--col9);
 }
 
 .about-button-container {
@@ -192,6 +210,7 @@ body {
   height: 22vh;
   background-size: cover;
   border-radius: 10%;
+  transition: 0.25s ease-in-out;
 }
 
 .about-button:hover {
@@ -300,6 +319,12 @@ body {
   opacity: 0;
   animation: load var(--animation-time) ease-in var(--nav-time);
   animation-fill-mode: forwards;
+}
+
+.timeline-icon {
+  object-fit: cover;
+  width: 71%;
+  height: 65%;
 }
 
 @keyframes nav-load {
