@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.5c1de97f.css",
-    "main.js": "/personal-website/static/js/main.7325d685.js",
+    "main.css": "/personal-website/static/css/main.775c9a96.css",
+    "main.js": "/personal-website/static/js/main.62fcd2cc.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
     "static/media/background.png": "/personal-website/static/media/background.173b1cf39774b08b8bb2.png",
     "static/media/anime.jpg": "/personal-website/static/media/anime.37e3cd4730667361c596.jpg",
@@ -10,12 +10,12 @@
     "static/media/compsci.jpg": "/personal-website/static/media/compsci.f3a2ab77189acfd922ca.jpg",
     "static/media/school.png": "/personal-website/static/media/school.4d890d5845bd2985891d.png",
     "index.html": "/personal-website/index.html",
-    "main.5c1de97f.css.map": "/personal-website/static/css/main.5c1de97f.css.map",
-    "main.7325d685.js.map": "/personal-website/static/js/main.7325d685.js.map",
+    "main.775c9a96.css.map": "/personal-website/static/css/main.775c9a96.css.map",
+    "main.62fcd2cc.js.map": "/personal-website/static/js/main.62fcd2cc.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c1de97f.css",
-    "static/js/main.7325d685.js"
+    "static/css/main.775c9a96.css",
+    "static/js/main.62fcd2cc.js"
   ]
 }
