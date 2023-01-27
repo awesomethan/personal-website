@@ -8,14 +8,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function About() {
-  const [title, setTitle] = useState();
-  const [text, setText] = useState();
+  const badmintonText =
+    "I started playing provincial badminton during high school. After playing competitively for less than a year, I attained a rank of 21st in Ontario when I was finishing my grade 9 year. In addition, at the end of grade 12, I achieved a peak rank of 14th in Ontario. During the summer after I graduated from high school, I also worked as a badminton coach for a summer camp. Although I am not playing the sport competitively anymore, I still really enjoy playing it with friends recreationally.";
+  const [title, setTitle] = useState("Badminton");
+  const [text, setText] = useState(badmintonText);
 
   function badminton() {
     setTitle("Badminton");
-    setText(
-      "I started playing provincial badminton during high school. I won several awards, including 4 gold, 5 silver, and 3 bronze medals. After playing competitive badminton for less than a year, I attained a rank of 21st in Ontario when I was finishing my grade 9 year. In addition, at the end of grade 12, I achieved a peak rank of 16th in Ontario. During the summer after I graduated from high school, I also worked as a badminton coach for a summer camp. Although I am not playing the sport competitively anymore, I still really enjoy playing it with friends recreationally."
-    );
+    setText(badmintonText);
   }
 
   function math() {
@@ -44,40 +44,51 @@ function About() {
       <h1 className="heading title">About Me</h1>
       <p className="text">
         My name is Ethan Wang, and I am currently a first year Computer Science
-        student at the University of Waterloo. My interests include mathematics
-        and competitive programming, and I would like to learn more about game
-        development. In my spare time, I mostly play badminton, watch anime (I'm
-        a Demon Slayer simp), and play League of Legends (it's an awful game,
-        please don't play it). I also enjoy spending time with friends, meeting
-        new people, and listening to a variety of music. Feel free to contact me
-        on Discord @thebaldffs#3128 or email me at ethanwang1203@gmail.com, or
-        connect with me using the buttons below!
+        student at the University of Waterloo. From time to time, I work on
+        projects using front end technologies and learn more about web
+        development. My interests include mathematics, programming, badminton,
+        anime (I'm a Demon Slayer simp), and League of Legends (it's an awful
+        game, please don't play it). I also enjoy spending time with friends,
+        meeting new people, and listening to a variety of music. Feel free to
+        contact me on Discord @thebaldffs#3128, email me at
+        ethanwang1203@gmail.com, or connect with me using the buttons below!
       </p>
       <div className="contact">
         <a href="https://www.linkedin.com/in/ethan-wang-3a5506217/">
-          <FontAwesomeIcon icon={faLinkedin} className="icon" />
+          <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
         </a>
         <a href="https://github.com/awesomethan">
-          <FontAwesomeIcon icon={faGithub} className="icon" />
+          <FontAwesomeIcon icon={faGithub} className="icon github" />
         </a>
         <a href="https://www.instagram.com/baldndumbethan/">
-          <FontAwesomeIcon icon={faInstagram} className="icon" />
+          <FontAwesomeIcon icon={faInstagram} className="icon instagram" />
         </a>
         <a href="https://open.spotify.com/user/awesomethan1026?si=2a3b5aae60584ae0">
-          <FontAwesomeIcon icon={faSpotify} className="icon" />
+          <FontAwesomeIcon icon={faSpotify} className="icon spotify" />
         </a>
       </div>
       <h2 className="heading">
         Click on the buttons below for more info about me!
       </h2>
-      <div className="button-container">
-        <button
-          className="badminton-img about-button"
-          onClick={badminton}
-        ></button>
-        <button className="math-img about-button" onClick={math}></button>
-        <button className="compsci-img about-button" onClick={compsci}></button>
-        <button className="anime-img about-button" onClick={anime}></button>
+      <div className="about-button-container">
+        <div className="about-button-div">
+          <button
+            className="badminton-img about-button"
+            onClick={badminton}
+          ></button>
+        </div>
+        <div className="about-button-div">
+          <button className="math-img about-button" onClick={math}></button>
+        </div>
+        <div className="about-button-div">
+          <button
+            className="compsci-img about-button"
+            onClick={compsci}
+          ></button>
+        </div>
+        <div className="about-button-div">
+          <button className="anime-img about-button" onClick={anime}></button>
+        </div>
       </div>
       <h2 className="heading">{title}</h2>
       <div className="text">{text}</div>

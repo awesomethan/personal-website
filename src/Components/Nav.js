@@ -10,16 +10,16 @@ function Nav() {
           alt="img cannot be displayed"
           className="logo"
         ></img>
-        <Link to="/personal-website" className="nav-style text">
+        <Link to="/" className="nav-style text nav-text">
           <li>Home</li>
         </Link>
-        <Link to="/about" className="nav-style text">
+        <Link to="/about" className="nav-style text nav-text">
           <li>About</li>
         </Link>
-        <Link to="/portfolio" className="nav-style text">
+        <Link to="/portfolio" className="nav-style text nav-text">
           <li>Portfolio</li>
         </Link>
-        <Link to="/timeline" className="nav-style text">
+        <Link to="/timeline" className="nav-style text nav-text">
           <li>Timeline</li>
         </Link>
       </ul>

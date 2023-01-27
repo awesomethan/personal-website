@@ -11,20 +11,50 @@ function Home() {
         cool things, click on 'Portfolio'. To learn about my 🌟fascinating🌟
         teenage life, click on 'Timeline'.
       </p>
-      <div className="image-grid grid-1">
-        <img className="image-grid-row-2" src="images/home-img1.jpeg" alt="" />
-        <img className="image-grid-row-2" src="images/home-img2.jpeg" alt="" />
-        <img className="image-grid-row-2" src="images/home-img3.jpeg" alt="" />
-      </div>
-      <div className="image-grid grid-2">
-        <img className="image-grid-row-2" src="images/home-img4.jpeg" alt="" />
-        <img className="image-grid-col-2" src="images/home-img5.jpeg" alt="" />
-        <img className="image-grid-col-2" src="images/home-img6.jpeg" alt="" />
-      </div>
-      <div className="image-grid grid-3">
-        <img className="image-grid-col-2" src="images/home-img7.jpeg" alt="" />
-        <img className="image-grid-row-2" src="images/home-img8.jpg" alt="" />
-        <img className="image-grid-col-2" src="images/home-img9.jpg" alt="" />
+      <div className="grid-container">
+        <div className="image-grid grid-1">
+          <img
+            className="image-grid-row-2"
+            src="images/home-img1.jpeg"
+            alt=""
+          />
+          <img
+            className="image-grid-row-2"
+            src="images/home-img2.jpeg"
+            alt=""
+          />
+          <img
+            className="image-grid-row-2"
+            src="images/home-img3.jpeg"
+            alt=""
+          />
+        </div>
+        <div className="image-grid grid-2">
+          <img
+            className="image-grid-row-2"
+            src="images/home-img4.jpeg"
+            alt=""
+          />
+          <img
+            className="image-grid-col-2"
+            src="images/home-img5.jpeg"
+            alt=""
+          />
+          <img
+            className="image-grid-col-2"
+            src="images/home-img6.jpeg"
+            alt=""
+          />
+        </div>
+        <div className="image-grid grid-3">
+          <img
+            className="image-grid-col-2"
+            src="images/home-img7.jpeg"
+            alt=""
+          />
+          <img className="image-grid-row-2" src="images/home-img8.jpg" alt="" />
+          <img className="image-grid-col-2" src="images/home-img9.jpg" alt="" />
+        </div>
       </div>
     </div>
   );

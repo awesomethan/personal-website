@@ -4,18 +4,29 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-//https://github.com/stephane-monnot/react-vertical-timeline?ref=morioh.com&utm_source=morioh.com
-//subtitle: <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+import BadmintonLogo from "./Icons/badminton.png";
+import WorkLogo from "./Icons/work.png";
+import SchoolLogo from "./Icons/school.png";
 
 function Timeline() {
   return (
-    <VerticalTimeline>
+    <VerticalTimeline className="timeline">
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{
+          background: "#03045e",
+          color: "#fff",
+        }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="March 25, 2018"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={BadmintonLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           First Badminton Tournament
@@ -27,10 +38,42 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{
+          background: "#03045e",
+          color: "#fff",
+        }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
+        date="September 4, 2018"
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Started Attending MMHS
+        </h3>
+        <p>
+          This is where I met my amazing friends who suffered through the IB
+          programme with me 🥲
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="October 14, 2018"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={BadmintonLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           First Provincial Badminton Medal
@@ -43,10 +86,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="November 7, 2018"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={WorkLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           First Day of Work at Spirit of Math
@@ -60,10 +110,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="March 2-3, 2019"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={BadmintonLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           First Provincial Gold Medal
@@ -75,13 +132,53 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
-        date="November 20, 2019"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
+        date="July-August 2019"
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
-          First Honour Roll Placement
+          Learned About Arduino
+        </h3>
+        <p>
+          During my grade 9 summer, a family friend taught me a little about
+          Arduino. I was able to build a light and music bot and program it to
+          play simple songs while flashing lights. In addition, I later made it
+          able to move in different patterns. Feel free to check out the final
+          product and code{" "}
+          <a
+            href="https://github.com/awesomethan/arduino-mini-projects"
+            target="_blank"
+            rel="noreferrer"
+          >
+            here
+          </a>
+          .
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
+        date="November 20, 2019"
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h3 className="vertical-timeline-element-title">
+          First CEMC Contest Honour Roll Placement
         </h3>
         <p>
           At the 2019 CIMC, I earned a certificate of distinction and barely
@@ -92,10 +189,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="February 12, 2020"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           My First CCC Contest
@@ -108,10 +212,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="September 9, 2020"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Started the IB Programme
@@ -124,10 +235,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="February 17, 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           My Second CCC Contest
@@ -140,10 +258,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="April 7, 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           My First Euclid Contest
@@ -156,10 +281,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="May-June, 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">AP Exams</h3>
         <p>
@@ -171,30 +303,50 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="September 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
-          Joined the Math and CS Clubs at MMHS
+          Became an Executive in the Math and CS Clubs
         </h3>
         <p>
-          After becoming an executive in the math and computer science clubs at
-          MMHS, I helped create content for meetings. Content in the math club
-          included both curriculum and contest math, such as Vieta's formulas
-          and linear diophantine equations. In the computer science club, I was
-          a competitive programming trainer, so I mainly helped club members
-          learn the fundamentals of competitive programming. You can find some
-          of my resources here.
+          In the math club, I created content for meetings, including both
+          curriculum and contest math. In the computer science club, I was a
+          competitive programming trainer, so I enlightened club members on the
+          fundamentals of competitive programming. You can find some of my
+          resources{" "}
+          <a
+            href="https://drive.google.com/drive/folders/1VOMTimsvFfidF6dp2nuH89Fk7Bcx-3YU?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            here
+          </a>
+          .
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="October 2018-November 2021"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Miscellaneous Math Contest Awards
@@ -210,10 +362,17 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="April 2022"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={WorkLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
           Started Private Tutoring
@@ -226,13 +385,43 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
-        date="June 2022"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
+        date="October 2018-May 2022"
+        icon={<img className="timeline-icon" src={BadmintonLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
-          Finished the IB Programme
+          Miscellaneous Badminton Awards
+        </h3>
+        <p>
+          In total, I won 4 gold, 5 silver, and 3 bronze provincial medals. I
+          also played a few other local tournaments and acquired several other
+          awards too.
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
+        date="June 2022"
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Finished the IB Programme and Graduated From HS
         </h3>
         <p>
           I achieved an IB score of 40/45. A little confused as to how I got a 7
@@ -241,18 +430,70 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#0077b6", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0077b6" }}
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="July-August 2022"
-        iconStyle={{ background: "#0077b6", color: "#fff" }}
+        icon={<img className="timeline-icon" src={WorkLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <h3 className="vertical-timeline-element-title">
-          Started Coaching Badminton
+          Started Coaching Badminton (Full Time!)
         </h3>
         <p>
           I led a badminton summer camp and taught 7-13 year old children the
           fundamentals of badminton by showing them proper footwork and
           technique.
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
+        date="September 2022-present"
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h3 className="vertical-timeline-element-title">
+          Started Attending UWaterloo
+        </h3>
+        <p>
+          Meeting more amazing and intelligent people who enjoy programming as
+          well makes every day entertaining!
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "#03045e", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
+        date="January 2023-present"
+        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        iconStyle={{
+          background: "#03045e",
+          color: "#fff",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <h3 className="vertical-timeline-element-title">
+          UW Badminton Club Exec
+        </h3>
+        <p>
+          I love playing badminton with friends to relieve stress and have fun,
+          so to spend more time at the club, I decided to become an exec to help
+          the club run more smoothly.
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>
