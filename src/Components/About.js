@@ -21,14 +21,14 @@ function About() {
   function math() {
     setTitle("Math");
     setText(
-      "In grade 9, I became an assistant teacher at Spirit of Math. I primarily helped teach a grade 7 class and a grade 8 class, but I was also a supply assistant teacher for other classes. Furthermore, I wrote many math contests throughout high school, including COMC, AMC, and Waterloo’s CEMC contests. Although I only achieved honour roll once, I consistently made the distinction cutoff, and was very close to attaining honour roll two other times. In addition, I currently do remote 1 on 1 private tutoring for math. Specific topics range from high school curriculum math, such as functions and trigonometry, to contest math, such as AMC questions."
+      "In grade 9, I became an assistant teacher at Spirit of Math. I primarily helped teach a grade 7 class and a grade 8 class, but I was also a supply assistant teacher for other classes, ranging from kindergarten to grade 6. Furthermore, I wrote many math contests throughout high school, including COMC, AMC, and the University of Waterloo’s CEMC contests. Although I only achieved honour roll once, I consistently made the distinction cutoff, and was very close to attaining honour roll on two other occasions. In addition, I did remote 1 on 1 private math tutoring for a period of time. Topics ranged from high school curriculum math, such as functions and trigonometry, to contest math, such as AMC questions."
     );
   }
 
   function compsci() {
     setTitle("Computer Science");
     setText(
-      "I started learning competitive programming in grade 10 and mainly practised solving questions on DMOJ. I slowly stopped doing DMOJ problems during the start of grade 12 to focus more on school, but after graduating from high school, I started tutoring the fundamentals of competitive programming. Currently, I am learning web development by exploring tools such as HTML, CSS, Javascript, and React. I hope to learn more about game development in the future too."
+      "I started learning competitive programming in grade 10 and mainly practised solving questions on DMOJ. I slowly stopped doing DMOJ problems during the start of grade 12 to focus more on school, but during the end of high school, I started tutoring the fundamentals of competitive programming. Currently, I am learning front-end web development, and I hope to learn more about back-end tools as well as game development in the future."
     );
   }
 
@@ -45,25 +45,41 @@ function About() {
       <p className="text">
         My name is Ethan Wang, and I am currently a first year Computer Science
         student at the University of Waterloo. From time to time, I work on
-        projects using front end technologies and learn more about web
-        development. My interests include mathematics, programming, badminton,
-        anime (I'm a Demon Slayer simp), and League of Legends (it's an awful
-        game, please don't play it). I also enjoy spending time with friends,
-        meeting new people, and listening to a variety of music. Feel free to
-        contact me on Discord @thebaldffs#3128, email me at
-        ethanwang1203@gmail.com, or connect with me using the buttons below!
+        personal projects and learn more about web development. My interests
+        include mathematics, programming, badminton, anime (I'm a Demon Slayer
+        simp), and League of Legends (it's an awful game, please don't play it).
+        I also enjoy spending time with friends, meeting new people, and
+        listening to a variety of music. Feel free to contact me on Discord
+        @thebaldffs#3128, email me at ethanwang1203@gmail.com, or connect with
+        me using the buttons below!
       </p>
       <div className="contact">
-        <a href="https://www.linkedin.com/in/ethan-wang-3a5506217/">
+        <a
+          href="https://www.linkedin.com/in/ethan-wang-3a5506217/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
         </a>
-        <a href="https://github.com/awesomethan">
+        <a
+          href="https://github.com/awesomethan"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} className="icon github" />
         </a>
-        <a href="https://www.instagram.com/baldndumbethan/">
+        <a
+          href="https://www.instagram.com/baldndumbethan/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faInstagram} className="icon instagram" />
         </a>
-        <a href="https://open.spotify.com/user/awesomethan1026?si=2a3b5aae60584ae0">
+        <a
+          href="https://open.spotify.com/user/awesomethan1026?si=2a3b5aae60584ae0"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faSpotify} className="icon spotify" />
         </a>
       </div>

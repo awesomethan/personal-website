@@ -425,7 +425,17 @@ function Timeline() {
         </h3>
         <p>
           I achieved an IB score of 40/45. A little confused as to how I got a 7
-          in French but 6 in chemistry but oh well lol!
+          in French but 6 in chemistry but oh well! I think I did pretty well on
+          my math, physics, and chemistry IAs, so you can read them{" "}
+          <a
+            href="https://drive.google.com/drive/folders/1Z2HjoVKjvDE0qzM5XQWIWHD1mWhAUvCX?usp=share_link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            here
+          </a>{" "}
+          if you're interested (my EE is a different story though, so I will not
+          share it LOL)
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
@@ -478,7 +488,7 @@ function Timeline() {
         contentStyle={{ background: "#03045e", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #caf0f8" }}
         date="January 2023-present"
-        icon={<img className="timeline-icon" src={SchoolLogo} alt="" />}
+        icon={<img className="timeline-icon" src={BadmintonLogo} alt="" />}
         iconStyle={{
           background: "#03045e",
           color: "#fff",
