@@ -453,7 +453,7 @@ function Timeline() {
         }}
       >
         <h3 className="vertical-timeline-element-title">
-          Started Coaching Badminton (Full Time!)
+          Coached Badminton (Full Time!)
         </h3>
         <p>
           I led a badminton summer camp and taught 7-13 year old children the
