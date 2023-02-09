@@ -479,8 +479,8 @@ function Timeline() {
           Started Attending UWaterloo
         </h3>
         <p>
-          Meeting more amazing and intelligent people who enjoy programming as
-          well makes every day entertaining!
+          Meeting more amazing and intelligent people who share the same
+          interests as me makes every day entertaining!
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
