@@ -5,6 +5,19 @@ function Portfolio() {
   return (
     <div>
       <Project
+        date={"February 2022"}
+        title={"Meme Machine"}
+        description={
+          "A Google Chrome extension created using JSON, HTML, CSS, and JavaScript. It fetches a random meme-api.com and keeps track of the number of memes viewed on that day."
+        }
+        image={"images/meme-machine.png"}
+        codeLink={"https://github.com/awesomethan/meme-machine"}
+        demoLink={
+          "https://drive.google.com/file/d/1_Who8tToaec6Gnyr5mMnV3VsPZISGTVK/view?usp=share_link"
+        }
+        projectLink={""}
+      ></Project>
+      <Project
         date={"December 2022"}
         title={"Pokédex"}
         description={
@@ -21,7 +34,7 @@ function Portfolio() {
         date={"November 2022"}
         title={"Demon Slayer Quiz"}
         description={
-          "A Demon Slayer Quiz created using HTML, CSS, and Javascript. Feel free to try it and test your Demon Slayer knowledge! I guarantee that there will be at least one question that you do not know ;)"
+          "A Demon Slayer Quiz created using HTML, CSS, and JavaScript. Feel free to try it and test your Demon Slayer knowledge! I guarantee that there will be at least one question that you do not know ;)"
         }
         image={"images/demon-slayer.png"}
         codeLink={"https://github.com/awesomethan/demon-slayer-quiz"}
@@ -34,7 +47,7 @@ function Portfolio() {
         date={"October 2022"}
         title={"Cookie Clicker"}
         description={
-          "A simulation of the game Cookie Clicker created using HTML, CSS, and Javascript. As an introductory web dev project, it's not that interesting, but I promise that it is still fun to play :)"
+          "A simulation of the game Cookie Clicker created using HTML, CSS, and JavaScript. As an introductory web dev project, it's not that interesting, but I promise that it is still fun to play :)"
         }
         image={"images/cookie-clicker.png"}
         codeLink={"https://github.com/awesomethan/cookie-clicker"}
