@@ -8,7 +8,7 @@ function Portfolio() {
         date={"February 2022"}
         title={"Meme Machine"}
         description={
-          "A Google Chrome extension created using JSON, HTML, CSS, and JavaScript. It fetches a random meme-api.com and keeps track of the number of memes viewed on that day."
+          "A Google Chrome extension created using JSON, HTML, CSS, and JavaScript. It fetches a random meme from meme-api.com each time it is opened and keeps track of the number of memes viewed on that day."
         }
         image={"images/meme-machine.png"}
         codeLink={"https://github.com/awesomethan/meme-machine"}
