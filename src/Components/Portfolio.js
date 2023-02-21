@@ -10,7 +10,7 @@ function Portfolio() {
         description={
           "A Google Chrome extension created using JSON, HTML, CSS, and JavaScript. It fetches a random meme from meme-api.com each time it is opened and keeps track of the number of memes viewed on that day."
         }
-        image={"images/meme-machine2.png"}
+        image={"images/meme-machine.png"}
         codeLink={"https://github.com/awesomethan/meme-machine"}
         demoLink={
           "https://drive.google.com/file/d/1_Who8tToaec6Gnyr5mMnV3VsPZISGTVK/view?usp=share_link"
