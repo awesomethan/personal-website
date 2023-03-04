@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <div>
       <Project
-        date={"February 2022"}
+        date={"February 2023"}
         title={"Meme Machine"}
         description={
           "A Google Chrome extension created using JSON, HTML, CSS, and JavaScript. It fetches a random meme from meme-api.com each time it is opened and keeps track of the number of memes viewed on that day."
@@ -15,6 +15,16 @@ function Portfolio() {
         demoLink={
           "https://drive.google.com/file/d/1_Who8tToaec6Gnyr5mMnV3VsPZISGTVK/view?usp=share_link"
         }
+        projectLink={""}
+      ></Project>
+      <Project
+        date={"November 2022 - January 2023"}
+        title={"Credictor"}
+        description={
+          "A site created in a team of 3 that uses machine learning trained on banking datasets to predict a person's eligibility for a credit card. I designed and built the front-end form and helped connect the React front-end with the Flask back-end."
+        }
+        image={"images/credictor.png"}
+        codeLink={"https://github.com/awesomethan/credictor"}
         projectLink={""}
       ></Project>
       <Project
