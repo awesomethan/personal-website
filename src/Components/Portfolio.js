@@ -4,6 +4,19 @@ import Project from "./Project";
 function Portfolio() {
   return (
     <div>
+      <h1 className="heading title">My Portfolio</h1>
+      <p className="text portfolio-intro">
+        Scroll down to check out some projects that I have been working on, or
+        click{" "}
+        <a
+          href="https://drive.google.com/file/d/1z9udYg4VGmc-382KkGcY0SLTCmSc7zMw/view?usp=share_link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          here
+        </a>{" "}
+        to view my resume!
+      </p>
       <Project
         date={"February 2023"}
         title={"Meme Machine"}

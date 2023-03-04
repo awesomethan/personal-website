@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1 className="heading title home">Home</h1>
+      <h1 className="heading title">Home</h1>
       <p className="text">
         Hey! Welcome to my website! You can use the nav bar above to navigate
         the site. Below you can see a collage of me and my friends. To learn

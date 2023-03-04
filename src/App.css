@@ -92,6 +92,7 @@ body {
 
 .title {
   font-size: 50px;
+  text-align: center;
 }
 
 .text {
@@ -108,10 +109,6 @@ body {
 
 .nav-text {
   animation-delay: var(--nav-time);
-}
-
-.home {
-  text-align: center;
 }
 
 .grid-container {
@@ -326,6 +323,10 @@ body {
   animation: load var(--animation-time) ease-in
     calc(var(--nav-time) + var(--animation-time));
   animation-fill-mode: forwards;
+}
+
+.portfolio-intro {
+  margin: 7vh 3vw;
 }
 
 .portfolio-text {
