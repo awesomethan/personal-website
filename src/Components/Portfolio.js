@@ -18,6 +18,19 @@ function Portfolio() {
         to view my resume!
       </p>
       <Project
+        date={"April 2023"}
+        title={"Anime Archive"}
+        description={
+          "An anime site created using Next.js and Tailwind CSS that allows the user to search for any anime and receive its details. I used JavaScript Fetch API to retrieve the data from Jikan API."
+        }
+        image={"images/anime-archive.png"}
+        codeLink={"https://github.com/awesomethan/anime-archive"}
+        demoLink={
+          "https://drive.google.com/file/d/1hnwaK_UbLO-Plkwp_cRVfAGrVz8r3967/view?usp=share_link"
+        }
+        projectLink={""}
+      ></Project>
+      <Project
         date={"February 2023"}
         title={"Meme Machine"}
         description={
@@ -44,7 +57,7 @@ function Portfolio() {
         date={"December 2022"}
         title={"Pokédex"}
         description={
-          "A Pokédex created using React JS, Axios, Bootstrap, React-Bootstrap, and CSS. I also used the library Axios to get data from PokéAPI. Try it out, and learn more about Pokémon!"
+          "A Pokédex created using React JS, Axios, Bootstrap, React-Bootstrap, and CSS. I used the library Axios to get data from PokéAPI."
         }
         image={"images/pokedex.png"}
         codeLink={"https://github.com/awesomethan/pokedex"}
