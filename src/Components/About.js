@@ -43,15 +43,15 @@ function About() {
     <div>
       <h1 className="heading title">About Me</h1>
       <p className="text">
-        My name is Ethan Wang, and I am currently a first year Computer Science
+        My name is Ethan Wang, and I am currently a second year Computer Science
         student at the University of Waterloo. From time to time, I work on
         personal projects and learn more about web development. My interests
         include mathematics, programming, badminton, anime (I'm a Demon Slayer
         simp), and League of Legends (it's an awful game, please don't play it).
         I also enjoy spending time with friends, meeting new people, and
         listening to a variety of music. Feel free to contact me on Discord
-        @thebaldffs#3128, email me at ethanwang1203@gmail.com, or connect with
-        me using the buttons below!
+        @thebaldffs, email me at ethanwang1203@gmail.com, or connect with me
+        using the buttons below!
       </p>
       <div className="contact">
         <a
