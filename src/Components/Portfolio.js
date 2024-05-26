@@ -28,7 +28,7 @@ function Portfolio() {
         demoLink={
           "https://drive.google.com/file/d/1hnwaK_UbLO-Plkwp_cRVfAGrVz8r3967/view?usp=share_link"
         }
-        projectLink={""}
+        projectLink={"https://ethans-anime-archive.vercel.app/"}
       ></Project>
       <Project
         date={"February 2023"}
