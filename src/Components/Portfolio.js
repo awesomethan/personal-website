@@ -9,7 +9,7 @@ function Portfolio() {
         Scroll down to check out some projects that I have been working on, or
         click{" "}
         <a
-          href="https://drive.google.com/file/d/1z9udYg4VGmc-382KkGcY0SLTCmSc7zMw/view?usp=share_link"
+          href="https://drive.google.com/file/d/1S5kF9XLOLLvkqQt5UwvKydeujX6Pu6bZ/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

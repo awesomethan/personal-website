@@ -34,9 +34,7 @@ function Project({
           {showProjectButton()}
         </div>
       </div>
-      <div className="portfolio-img-container">
-        <img src={image} alt="" className="portfolio-img" />
-      </div>
+      <img src={image} alt="" className="portfolio-img" />
     </div>
   );
 }
