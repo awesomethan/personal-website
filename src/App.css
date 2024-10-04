@@ -372,7 +372,7 @@ body {
 
 .experience-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   position: relative;
   width: 70vw;
   margin: 5vh;
@@ -387,8 +387,9 @@ body {
 
 .experience-left {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  width: 72%;
 }
 
 .experience-img {
@@ -403,9 +404,9 @@ body {
 }
 
 .experience-date {
-  position: absolute;
-  top: 50%;
-  right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
   color: var(--col0);
   transform: translateY(-20px);
