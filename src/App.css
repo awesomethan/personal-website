@@ -398,8 +398,7 @@ body {
   border-radius: 50%;
   transform: translateY(-20px);
   opacity: 0;
-  animation: load var(--animation-time) ease-in
-    calc(var(--nav-time) + var(--animation-time));
+  animation: load var(--animation-time) ease-in var(--nav-time);
   animation-fill-mode: forwards;
 }
 
@@ -411,7 +410,8 @@ body {
   color: var(--col0);
   transform: translateY(-20px);
   opacity: 0;
-  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation: load var(--animation-time) ease-in
+    calc(var(--nav-time) + var(--animation-time));
   animation-fill-mode: forwards;
 }
 
