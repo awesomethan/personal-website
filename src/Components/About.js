@@ -9,7 +9,7 @@ import {
 
 function About() {
   const badmintonText =
-    "I started playing provincial badminton during high school. After playing competitively for less than a year, I attained a rank of 21st in Ontario when I was finishing my grade 9 year. In addition, at the end of grade 12, I achieved a peak rank of 14th in Ontario. During the summer after I graduated from high school, I also worked as a badminton coach for a summer camp. Although I am not playing the sport competitively anymore, I still really enjoy playing it with friends recreationally.";
+    "I started playing provincial badminton during high school. After playing competitively for less than a year, I attained a rank of 21st in Ontario when I was finishing my grade 9 year. At the end of grade 12, I achieved a peak rank of 14th in Ontario. I also worked as a badminton coach for a summer camp once. Now, I'm just a retired recreational player.";
   const [title, setTitle] = useState("Badminton");
   const [text, setText] = useState(badmintonText);
 
@@ -21,14 +21,14 @@ function About() {
   function math() {
     setTitle("Math");
     setText(
-      "In grade 9, I became an assistant teacher at Spirit of Math. I primarily helped teach a grade 7 class and a grade 8 class, but I was also a supply assistant teacher for other classes, ranging from kindergarten to grade 6. Furthermore, I wrote many math contests throughout high school, including COMC, AMC, and the University of Waterloo’s CEMC contests. Although I only achieved honour roll once, I consistently made the distinction cutoff, and was very close to attaining honour roll on two other occasions. In addition, I did remote 1 on 1 private math tutoring for a period of time. Topics ranged from high school curriculum math, such as functions and trigonometry, to contest math, such as AMC questions."
+      "In grade 10, I was an assistant teacher for a grade 7 and 8 class at Spirit of Math. Furthermore, I wrote many math contests throughout high school, including COMC, AMC, and UWaterloo's CEMC contests. Although I only achieved honour roll once, I consistently made the distinction cutoff, and was very close to attaining honour roll on two other occasions."
     );
   }
 
   function compsci() {
     setTitle("Computer Science");
     setText(
-      "I started learning competitive programming in grade 10 and mainly practised solving questions on DMOJ. I slowly stopped doing DMOJ problems during the start of grade 12 to focus more on school, but during the end of high school, I started tutoring the fundamentals of competitive programming. Currently, I am learning front-end web development, and I hope to learn more about back-end tools as well as game development in the future."
+      "I started learning competitive programming in grade 10 and mainly practised solving questions on DMOJ. During the end of high school, I started tutoring the fundamentals of competitive programming. Currently, I am learning more about full stack development, and I hope to learn more about AI and game development in the future."
     );
   }
 

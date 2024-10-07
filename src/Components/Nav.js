@@ -13,9 +13,9 @@ function Nav() {
         <Link to="/" className="nav-style text nav-text">
           <li>Home</li>
         </Link>
-        <Link to="/about" className="nav-style text nav-text">
+        {/* <Link to="/about" className="nav-style text nav-text">
           <li>About</li>
-        </Link>
+        </Link> */}
         <Link to="/experience" className="nav-style text nav-text">
           <li>Experience</li>
         </Link>

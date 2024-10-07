@@ -26,11 +26,16 @@ nav {
   align-items: center;
   height: 12vh;
   width: 100vw;
-  background: linear-gradient(black, var(--col6));
   color: white;
-  border-bottom: solid black;
   animation: nav-load var(--nav-time) ease-in;
   animation-fill-mode: forwards;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1); /* A softer line */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Subtle shadow */
 }
 
 .nav-links {
@@ -69,14 +74,20 @@ nav {
   background-size: cover;
 }
 
-body {
+.background {
+  background-image: url(../public/images/background2.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.body {
   display: flex;
   justify-content: center;
   width: 100vw;
   margin: 0;
   min-height: 88vh;
-  background-image: url(../public/images/background.png);
-  overflow-x: hidden;
 }
 
 .heading {
@@ -432,4 +443,50 @@ body {
 
 .skills-text {
   padding-left: 0.5vw;
+}
+
+.homepage-container {
+  height: 85vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.homepage-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-left {
+  width: 60vw;
+}
+
+.homepage-bottom {
+  text-align: center;
+}
+
+.highlight {
+  color: white;
+}
+
+.homepage-img {
+  object-fit: cover;
+  height: 8rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in var(--nav-time);
+  animation-fill-mode: forwards;
+}
+
+.homepage-heading {
+  font-size: 4vw;
+}
+
+.homepage-text {
+  font-size: 1.7vw;
+  text-align: center;
 }
