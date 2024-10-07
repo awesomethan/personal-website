@@ -119,6 +119,7 @@ h2 {
 }
 
 .nav-text {
+  font-size: 24px;
   animation-delay: var(--nav-time);
 }
 
@@ -473,8 +474,8 @@ h2 {
 
 .homepage-img {
   object-fit: cover;
-  height: 8rem;
-  aspect-ratio: 1 / 1;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   transform: translateY(-20px);
   opacity: 0;
