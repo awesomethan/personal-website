@@ -38,6 +38,35 @@ h2 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Subtle shadow */
 }
 
+.resume-button {
+  padding: 7px 14px;
+  background-color: #1e3a8a;
+  color: var(--col1);
+  text-decoration: none;
+  border: 2px solid #89cff0;
+  border-radius: 5px;
+  font-size: 22px;
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: load var(--animation-time) ease-in
+    calc(var(--nav-time) + var(--animation-time));
+  animation-fill-mode: forwards;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.resume-button:hover {
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.resume-button:active {
+  background-color: #1d4ed8;
+  border-color: white;
+}
+
 .nav-links {
   width: 100vw;
   display: flex;
@@ -75,7 +104,7 @@ h2 {
 }
 
 .background {
-  background-image: url(../public/images/background2.jpg);
+  background-image: url(../public/images/background4.jpg);
   background-size: cover;
   overflow-x: hidden;
   background-position: center center;
@@ -104,6 +133,7 @@ h2 {
 .title {
   font-size: 50px;
   text-align: center;
+  margin: 7vh 0;
 }
 
 .text {
@@ -337,10 +367,6 @@ h2 {
   animation-fill-mode: forwards;
 }
 
-.portfolio-intro {
-  margin: 7vh 3vw;
-}
-
 .portfolio-text {
   text-align: center;
 }
@@ -490,4 +516,8 @@ h2 {
 .homepage-text {
   font-size: 1.7vw;
   text-align: center;
+}
+
+.resume-button-text {
+  font-size: 22px;
 }

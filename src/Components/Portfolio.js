@@ -5,18 +5,6 @@ function Portfolio() {
   return (
     <div>
       <h1 className="heading title">My Portfolio</h1>
-      <p className="text portfolio-intro">
-        Scroll down to check out some projects that I have been working on, or
-        click{" "}
-        <a
-          href="https://drive.google.com/file/d/1S5kF9XLOLLvkqQt5UwvKydeujX6Pu6bZ/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          here
-        </a>{" "}
-        to view my resume!
-      </p>
       <Project
         date={"April 2023"}
         title={"Anime Archive"}

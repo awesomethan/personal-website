@@ -22,9 +22,17 @@ function Nav() {
         <Link to="/portfolio" className="nav-style text nav-text">
           <li>Portfolio</li>
         </Link>
-        <Link to="/timeline" className="nav-style text nav-text">
+        <a
+          href="https://drive.google.com/file/d/1S5kF9XLOLLvkqQt5UwvKydeujX6Pu6bZ/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-button nav-text resume-button-text"
+        >
+          Resume
+        </a>
+        {/* <Link to="/timeline" className="nav-style text nav-text">
           <li>Timeline</li>
-        </Link>
+        </Link> */}
       </ul>
     </nav>
   );
