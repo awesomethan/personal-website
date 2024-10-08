@@ -16,6 +16,7 @@
   --col7: #0a66c2;
   --col8: #f10fbb;
   --col9: #1ccc5b;
+  --col10: #5864ec;
   --nav-time: 0.5s;
   --animation-time: 0.3s;
 }
@@ -68,7 +69,7 @@ h2 {
 }
 
 .nav-links {
-  width: 100vw;
+  width: 92vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -224,7 +225,15 @@ h2 {
 }
 
 .github:hover {
-  color: black;
+  color: #383434;
+}
+
+.email:hover {
+  color: var(--col2);
+}
+
+.discord:hover {
+  color: var(--col10);
 }
 
 .instagram:hover {
@@ -473,11 +482,12 @@ h2 {
 }
 
 .homepage-container {
-  height: 85vh;
+  height: 82vh;
   width: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
 .homepage-top {
@@ -492,6 +502,7 @@ h2 {
 
 .homepage-bottom {
   text-align: center;
+  width: 50vw;
 }
 
 .highlight {

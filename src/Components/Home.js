@@ -5,7 +5,9 @@ import {
   faLinkedin,
   faGithub,
   faInstagram,
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
@@ -23,10 +25,7 @@ function Home() {
         <img className="homepage-img" src="images/homepic.jpg" alt=""></img>
       </div>
       <div className="homepage-bottom">
-        <p className="text">
-          Contact me on Discord @thebaldffs, email me at
-          ethanwang1203@gmail.com, or connect with me using the buttons below!
-        </p>
+        <p className="text">Connect with me using the buttons below!</p>
         <div className="contact">
           <a
             href="https://www.linkedin.com/in/ethan-wang-3a5506217/"
@@ -42,6 +41,16 @@ function Home() {
           >
             <FontAwesomeIcon icon={faGithub} className="icon github" />
           </a>
+          <a href="mailto:eqwang@uwaterloo.ca" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faEnvelope} className="icon email" />
+          </a>
+          {/* <a
+            href="https://discordapp.com/users/221721964602064896"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faDiscord} className="icon discord" />
+          </a>
           <a
             href="https://www.instagram.com/baldndumbethan/"
             target="_blank"
@@ -55,7 +64,7 @@ function Home() {
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faSpotify} className="icon spotify" />
-          </a>
+          </a>*/}
         </div>
       </div>
     </div>
