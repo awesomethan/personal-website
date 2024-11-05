@@ -20,7 +20,7 @@ function Experience() {
         skills={"SQL, Python, Power BI, Power Query"}
       ></Job>
       <Job
-        title={"QA Analyst/Automation Engineer"}
+        title={"QA Automation Engineer"}
         date={"May - August 2023"}
         company={"Globalfaces Direct"}
         image={"images/gfdlogo.jpg"}

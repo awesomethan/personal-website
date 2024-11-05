@@ -12,59 +12,50 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Home() {
   return (
     <div className="homepage-container">
-      <div className="homepage-top">
-        <div className="homepage-left">
-          <h1 className="heading title homepage-heading">
+      <div className="flex flex-col items-center md:flex-row md:justify-center w-full gap-12">
+        <img
+          className="w-36 h-36 md:w-52 md:h-52 rounded-full homepage-img mt-14 md:m-0"
+          src={"images/homepic.jpg"}
+          alt=""
+        />
+        <div className="homepage-left flex flex-col items-center md:items-start w-full md:w-3/5 px-12">
+          <h1 className="heading text-5xl">
             Hi, I'm <span className="highlight">Ethan👋</span>
           </h1>
-          <p className="text homepage-text">
-            3rd year computer science student specializing in human-computer
-            interaction @ UWaterloo
-          </p>
-        </div>
-        <img className="homepage-img" src="images/homepic.jpg" alt=""></img>
-      </div>
-      <div className="homepage-bottom">
-        <p className="text">Connect with me using the buttons below!</p>
-        <div className="contact">
-          <a
-            href="https://www.linkedin.com/in/ethan-wang-3a5506217/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
-          </a>
-          <a
-            href="https://github.com/awesomethan"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faGithub} className="icon github" />
-          </a>
-          <a href="mailto:eqwang@uwaterloo.ca" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faEnvelope} className="icon email" />
-          </a>
-          {/* <a
-            href="https://discordapp.com/users/221721964602064896"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faDiscord} className="icon discord" />
-          </a>
-          <a
-            href="https://www.instagram.com/baldndumbethan/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faInstagram} className="icon instagram" />
-          </a>
-          <a
-            href="https://open.spotify.com/user/awesomethan1026?si=2a3b5aae60584ae0"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faSpotify} className="icon spotify" />
-          </a>*/}
+          <div className="flex flex-row gap-4 my-4">
+            <a
+              href="https://www.linkedin.com/in/ethan-wang-3a5506217/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="icon linkedin" />
+            </a>
+            <a
+              href="https://github.com/awesomethan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} className="icon github" />
+            </a>
+            <a
+              href="mailto:eqwang@uwaterloo.ca"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faEnvelope} className="icon email" />
+            </a>
+          </div>
+          <div className="py-10 md:p-0">
+            <p className="text homepage-text">
+              3rd year computer science student specializing in human-computer
+              interaction @ UWaterloo
+            </p>
+            <br />
+            <p className="text homepage-text">
+              I’m a software developer aspiring to help build impactful
+              solutions that enrich lives and benefit society.
+            </p>
+          </div>
         </div>
       </div>
     </div>

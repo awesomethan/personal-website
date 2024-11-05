@@ -22,8 +22,8 @@ function Project({
     <div className="project-container">
       <div className="portfolio-date">{date}</div>
       <div className="description-container">
-        <h1 className="heading">{title}</h1>
-        <div className="text portfolio-text">{description}</div>
+        <h1 className="heading text-4xl pt-6">{title}</h1>
+        <div className="text portfolio-text py-8">{description}</div>
         <div className="portfolio-button-container">
           <a href={codeLink} target="_blank" rel="noreferrer">
             <button className="portfolio-button text">VIEW CODE</button>
