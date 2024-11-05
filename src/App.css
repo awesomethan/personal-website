@@ -134,7 +134,9 @@ h2 {
 
 .title {
   font-size: 3rem;
-  margin: 4vh 4vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
 }
 
 .text {
@@ -425,6 +427,7 @@ h2 {
 
 .experience-skills {
   display: flex;
+  align-items: center;
 }
 
 .experience-subheading {
