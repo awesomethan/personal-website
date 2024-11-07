@@ -381,7 +381,6 @@ h2 {
 }
 
 .experience-container {
-  display: flex;
   justify-content: space-between;
   position: relative;
   width: 70vw;
@@ -393,13 +392,6 @@ h2 {
   opacity: 0;
   animation: load var(--animation-time) ease-in var(--nav-time);
   animation-fill-mode: forwards;
-}
-
-.experience-left {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  width: 72%;
 }
 
 .experience-img {
