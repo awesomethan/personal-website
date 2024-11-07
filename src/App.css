@@ -270,10 +270,10 @@ h2 {
 
 .project-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   position: relative;
-  width: 90vw;
+  width: 80vw;
+  height: auto;
   margin: 5vh;
   padding: 3vh 3vw;
   border: solid white;
@@ -298,22 +298,20 @@ h2 {
 .description-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 36vw;
 }
 
 .portfolio-button-container {
-  width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 .portfolio-button {
   height: auto;
   min-height: 8vh;
-  width: 11vw;
-  margin: 1vh;
+  padding: 10px;
+  margin: 0 5px;
   border-radius: 10px;
   background: transparent;
   border: solid white;
@@ -328,9 +326,8 @@ h2 {
 }
 
 .portfolio-img {
+  height: 45vh;
   object-fit: cover;
-  height: 50vh;
-  width: 45vw;
   border-radius: 10px;
   transform: translateY(-20px);
   opacity: 0;

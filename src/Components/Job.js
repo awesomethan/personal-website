@@ -14,7 +14,7 @@ function Job({ title, date, company, image, skills }) {
           </p>
           <div className="text experience-skills">
             <img src="images/skills.jpg" alt="" className="skills-img" />
-            <p className="skills-text py-3">{skills}</p>
+            <p className="skills-text py-3 pl-2">{skills}</p>
           </div>
         </div>
       </div>
