@@ -8,7 +8,7 @@ function Nav() {
         <img
           src="images/logo.png"
           alt="img cannot be displayed"
-          className="logo"
+          className="logo w-16 h-16 hidden md:block"
         ></img>
         <Link to="/" className="nav-style text nav-text">
           <li>Home</li>

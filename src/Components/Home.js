@@ -14,12 +14,12 @@ function Home() {
     <div className="homepage-container">
       <div className="flex flex-col items-center md:flex-row md:justify-center w-full gap-12">
         <img
-          className="w-36 h-36 md:w-52 md:h-52 rounded-full homepage-img mt-14 md:m-0"
+          className="w-36 h-36 md:w-52 md:h-52 rounded-full homepage-img mt-20 md:m-0"
           src={"images/homepic.jpg"}
           alt=""
         />
         <div className="homepage-left flex flex-col items-center md:items-start w-full md:w-3/5 px-12">
-          <h1 className="heading text-5xl">
+          <h1 className="heading text-5xl text-center">
             Hi, I'm <span className="highlight">Ethan👋</span>
           </h1>
           <div className="flex flex-row gap-4 my-4">
