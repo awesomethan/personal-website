@@ -3,8 +3,8 @@ import Job from "./Job";
 
 function Experience() {
   return (
-    <div>
-      <p className="heading title">Work Experience</p>
+    <div className="flex flex-col">
+      <h1 className="heading title">Work Experience</h1>
       <Job
         title={"Software Developer"}
         date={"September - December 2024"}
