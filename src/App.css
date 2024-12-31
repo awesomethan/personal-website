@@ -110,6 +110,7 @@ h2 {
 }
 
 .background {
+  width: 100%;
   background-image: url(../public/images/background4.jpg);
   background-size: cover;
   overflow-x: hidden;
