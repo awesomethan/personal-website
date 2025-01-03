@@ -13,8 +13,12 @@ function Job({ title, date, company, image, skills }) {
             {company}
           </p>
           <div className="text experience-skills">
-            <img src="images/skills.jpg" alt="" className="skills-img" />
-            <p className="skills-text py-3 ml-2">{skills}</p>
+            <img
+              src="images/skills.jpg"
+              alt=""
+              className="skills-img ml-1 md:ml-0"
+            />
+            <p className="skills-text py-3 ml-2 md:ml-1">{skills}</p>
           </div>
         </div>
       </div>

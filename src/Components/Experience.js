@@ -20,7 +20,7 @@ function Experience() {
         company={"Globalfaces Direct"}
         image={"images/gfdlogo.jpg"}
         skills={
-          "Python, SQL, Snowflake, Sigma Computing, Power BI, Power Query, Matillion"
+          "Python, SQL, Snowflake, Sigma Computing, Power BI, Power Query"
         }
       ></Job>
       <Job
