@@ -6,7 +6,7 @@ function Portfolio() {
     <div>
       <h1 className="heading title">My Portfolio</h1>
       <Project
-        date={"April 2023"}
+        date={"October 204"}
         title={"Anime Archive"}
         description={
           "An anime site created using Next.js and Tailwind CSS that allows the user to search for any anime and receive its details. I used JavaScript Fetch API to retrieve the data from Jikan API."
@@ -32,7 +32,7 @@ function Portfolio() {
         projectLink={""}
       ></Project>
       <Project
-        date={"December 2022 - January 2023"}
+        date={"January 2023"}
         title={"Credictor"}
         description={
           "A site created in a team of 3 that uses machine learning trained on banking datasets to predict a person's eligibility for a credit card. I designed and built the front-end form and helped connect the React front-end with the Flask back-end."

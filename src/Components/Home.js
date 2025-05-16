@@ -52,8 +52,8 @@ function Home() {
             </p>
             <br />
             <p className="text homepage-text">
-              I’m a software developer aspiring to build impactful solutions
-              that enrich lives and benefit society.
+              Software developer passionate about creating tech that makes a
+              difference
             </p>
           </div>
         </div>
