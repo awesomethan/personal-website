@@ -6,7 +6,7 @@ function Job({ title, date, company, image, skills }) {
       <div className="flex flex-col md:flex-row justify-center items-center">
         <img src={image} alt="" className="experience-img" />
         <div className="experience-text-container md:pl-12">
-          <h1 className="heading text-3xl py-6 text-center md:text-left">
+          <h1 className="heading text-3xl pt-6 pb-4 text-center md:text-left">
             {title}
           </h1>
           <p className="text experience-subheading text-center md:text-left">
@@ -18,7 +18,7 @@ function Job({ title, date, company, image, skills }) {
               alt=""
               className="skills-img ml-1 md:ml-0"
             />
-            <p className="skills-text py-3 ml-2 md:ml-1">{skills}</p>
+            <p className="skills-text py-4 ml-2 md:ml-1">{skills}</p>
           </div>
         </div>
       </div>
