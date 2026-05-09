@@ -9,14 +9,14 @@ function Experience() {
         title={"Software Engineer Intern"}
         date={"May - August 2026"}
         company={"Okta"}
-        image={"images/oktalogo.jpg"}
+        image={"images/oktalogo.jpeg"}
         skills={"GitHub Actions, JavaScript"}
       ></Job>
       <Job
         title={"Software Engineer Intern"}
         date={"January - April 2026"}
         company={"StackAdapt"}
-        image={"images/stackadaptlogo.jpg"}
+        image={"images/stackadaptlogo.jpeg"}
         skills={"Ruby on Rails, TypeScript, GraphQL"}
       ></Job>
       <Job
