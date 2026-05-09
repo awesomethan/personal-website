@@ -47,8 +47,7 @@ function Home() {
           </div>
           <div className="py-10 md:p-0">
             <p className="text homepage-text">
-              3rd year computer science student specializing in human-computer
-              interaction @ UWaterloo
+              4th year computer science student specializing in AI @ UWaterloo
             </p>
             <br />
             <p className="text homepage-text">

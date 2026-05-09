@@ -6,21 +6,35 @@ function Experience() {
     <div className="flex flex-col">
       <h1 className="heading title">Work Experience</h1>
       <Job
-        title={"Software Developer Intern"}
+        title={"Software Engineer Intern"}
+        date={"May - August 2026"}
+        company={"Okta"}
+        image={"images/oktalogo.jpg"}
+        skills={"GitHub Actions, JavaScript"}
+      ></Job>
+      <Job
+        title={"Software Engineer Intern"}
+        date={"January - April 2026"}
+        company={"StackAdapt"}
+        image={"images/stackadaptlogo.jpg"}
+        skills={"Ruby on Rails, TypeScript, GraphQL"}
+      ></Job>
+      <Job
+        title={"Software Engineer Intern"}
         date={"May - August 2025"}
         company={"Vidyard"}
         image={"images/vidyardlogo.jpg"}
-        skills={"Ruby on Rails, TypeScript, Vue, Jest"}
+        skills={"Ruby on Rails, Vue, GraphQL, Jest"}
       ></Job>
       <Job
-        title={"Part Time Software Engineer"}
+        title={"Software Engineer (Part-Time)"}
         date={"January - March 2025"}
         company={"Mercor"}
         image={"images/mercorlogo.jpg"}
         skills={"Java, Python, C++"}
       ></Job>
       <Job
-        title={"Software Developer Intern"}
+        title={"Software Engineer Intern"}
         date={"September - December 2024"}
         company={"WOLF Advanced Technology"}
         image={"images/wolflogo.jpg"}
