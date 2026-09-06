@@ -10,7 +10,7 @@ function Experience() {
         date={"September - December 2026"}
         company={"Bloomberg"}
         image={"images/bloomberglogo.png"}
-        skills={""}
+        skills={"C++, Python, SQL, Kafka"}
       ></Job>
       <Job
         title={"Software Engineer Intern"}
