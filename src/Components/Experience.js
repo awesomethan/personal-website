@@ -7,10 +7,17 @@ function Experience() {
       <h1 className="heading title">Work Experience</h1>
       <Job
         title={"Software Engineer Intern"}
+        date={"September - December 2026"}
+        company={"Bloomberg"}
+        image={"images/bloomberglogo.png"}
+        skills={""}
+      ></Job>
+      <Job
+        title={"Software Engineer Intern"}
         date={"May - August 2026"}
         company={"Okta"}
         image={"images/oktalogo.jpeg"}
-        skills={"GitHub Actions, JavaScript"}
+        skills={"GitHub Actions, CI/CD, Argo, YAML"}
       ></Job>
       <Job
         title={"Software Engineer Intern"}

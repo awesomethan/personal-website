@@ -23,7 +23,7 @@ function Nav() {
           <li>Portfolio</li>
         </Link>
         <a
-          href="https://drive.google.com/file/d/1sSZh2rKJaNGiHhk5XzlvcZrP5bcT9egE/view?usp=sharing"
+          href="https://drive.google.com/file/d/14yBlj309-GGYg4EvbG-xAtRDjz4ZMl9h/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-button nav-text resume-button-text px-2 py-1 md:px-3 md:py-2"
